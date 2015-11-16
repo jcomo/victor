@@ -36,7 +36,7 @@ setup(
     url = 'https://github.com/jcomo/victor',
     author = 'Jonathan Como',
     author_email = 'jonathan.como@gmail.com',
-    packages = find_packages(exclude=['docs', 'tests']),
+    packages = find_packages(exclude=['docs', 'tests', 'scripts']),
     install_requires = [
         'six>=1.10',
     ],
