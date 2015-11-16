@@ -25,7 +25,6 @@ class Tox(TestCommand):
         if args:
             args = shlex.split(self.tox_args)
 
-        print(sys.argv)
         errno = tox.cmdline(args=args)
         sys.exit(errno)
 
