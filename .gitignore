@@ -1,4 +1,7 @@
 env/
+.tox/
+
+*.egg-info
 
 *.pyc
 __pycache__/

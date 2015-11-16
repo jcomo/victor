@@ -1,6 +1,6 @@
 from time import time
 
-from victor import victor
+from .victor import victor
 
 
 def debug(f):
