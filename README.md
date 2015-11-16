@@ -1,4 +1,4 @@
-# Victor
+# Victor ![](https://travis-ci.org/jcomo/victor.svg?branch=master)
 A small library for profiling and debugging python applications and functions. Inspired by [Hugo](https://github.com/JakeWharton/hugo).
 
 ### Usage
