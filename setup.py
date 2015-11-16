@@ -31,13 +31,15 @@ class Tox(TestCommand):
 
 setup(
     name = 'victor',
-    version = '0.1.0',
+    version = '0.1.1',
     description = "A simple tool for debugging and profiling applications",
     url = 'https://github.com/jcomo/victor',
     author = 'Jonathan Como',
     author_email = 'jonathan.como@gmail.com',
     packages = find_packages(exclude=['docs', 'tests']),
-    install_requires = [],
+    install_requires = [
+        'six>=1.10',
+    ],
     tests_require = ['tox'],
     cmdclass = {
         'test': Tox,
