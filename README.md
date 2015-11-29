@@ -46,7 +46,7 @@ Note that since debug is a decorator, it will wrap the function. Disabling Victo
 Therefore, it is critical that the enabled property is set as soon as possible during app initialization so that modules aren't loaded (causing functions to be wrapped mistakenly).
 
 #### BYOLogger
-By default, Victor will log to stdout wiht a specific format. If you don't like that, you can assign your own logger using `victor.logger`.
+By default, Victor will log to stdout with a specific format. If you don't like that, you can assign your own logger using `victor.logger`.
 
 #### Formatting the profiler
 If you'd like more pizazz out of the profiling information, you can define your own `Presenter` with `view_input` and `view_output` that each return strings.
